@@ -3,7 +3,7 @@
 // 2020-8-3
 // 对solution1.java进行了简化，没有进行"垃圾"处理，在运行结束后直接销毁
 
-class Solution {
+class Solution2 {
     public ListNode removeElements(ListNode head, int val) {
 
         while (head != null && head.val == val)
