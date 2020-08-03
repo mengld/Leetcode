@@ -1,3 +1,7 @@
+// https://leetcode-cn.com/problems/remove-linked-list-elements/
+// mengld
+// 2020-8-3
+
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
 
