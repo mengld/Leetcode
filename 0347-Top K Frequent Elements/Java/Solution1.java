@@ -342,7 +342,7 @@ class Solution {
         }
     }
 
-    public List<Integer> topKFrequent(int[] nums, int k) {
+    public int[] topKFrequent(int[] nums, int k) {
 
         TreeMap<Integer, Integer> map = new TreeMap<>();
         for(int num: nums){
@@ -365,10 +365,14 @@ class Solution {
         LinkedList<Integer> res = new LinkedList<>();
         while(!pq.isEmpty())
             res.add(pq.dequeue().e);
-        return res;
+        int[] result = new int[res.size()];
+        for (int i = 0; i < res.size(); i++) {
+            result[i] = res.get(i);
+        }
+        return result;
     }
 
-    private static void printList(List<Integer> nums){
+    private static void printList(int[] nums){
         for(Integer num: nums)
             System.out.print(num + " ");
         System.out.println();
