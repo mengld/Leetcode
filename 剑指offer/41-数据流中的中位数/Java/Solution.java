@@ -15,6 +15,7 @@ class MedianFinder {
 
     public void addNum(int num) {
 
+        // 定义N为偶数的情况下，加入最小堆。因为要满足最大堆所有元素均小于最大堆所有元素，因此，先将新加入元素加入到最大堆，选出其中最大元素再加入最小堆
         if (N % 2 == 0) {
             left.add(num);
             right.add(left.poll());
