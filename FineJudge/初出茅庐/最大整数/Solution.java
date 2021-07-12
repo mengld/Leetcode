@@ -17,7 +17,7 @@ import java.util.Scanner;
  * @author mengld
  * @create 2021-07-11 15:03
  */
-public class Solution2 {
+public class Solution {
 
     public static String getMaxNum(String[] nums) {
         int n = nums.length;
