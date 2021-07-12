@@ -37,7 +37,7 @@ import java.util.Scanner;
  * @author mengld
  * @create 2021-07-11 21:12
  */
-public class Solution4 {
+public class Solution {
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int p1 = m - 1, p2 = n - 1;
