@@ -24,7 +24,7 @@ import java.util.*;
  * @author mengld
  * @create 2021-07-11 16:57
  */
-public class Solution4 {
+public class Solution {
 
     public static String getMD5(String result) {
         String s = null;
