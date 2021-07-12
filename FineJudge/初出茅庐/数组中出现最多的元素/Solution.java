@@ -20,7 +20,7 @@ import java.util.Scanner;
  * @author mengld
  * @create 2021-07-11 14:51
  */
-public class Solution1 {
+public class Solution {
 
     public static int FindMajorityNum(int[] nums) {
         int candidate = nums[0], count = 1;
