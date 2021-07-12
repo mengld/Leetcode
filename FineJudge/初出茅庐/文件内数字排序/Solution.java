@@ -18,7 +18,7 @@ import java.util.BitSet;
  * @author mengld
  * @create 2021-07-11 20:55
  */
-public class Solution5 {
+public class Solution {
 
     public static void main(String[] args) throws IOException {
 
